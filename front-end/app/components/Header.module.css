@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--cor3);
+  color: #fff;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.brand span {
+  font-size: 28px !important;
+}
+
+.brand h1 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.nav button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav button:hover {
+  background-color: var(--cor4);
+}
+
+.nav button.active {
+  background-color: #fff;
+  color: var(--cor3);
+}
+
+.userArea {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.userName {
+  font-weight: 600;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: var(--cor4);
+  color: #fff;
+  font-weight: 500;
+}
+
+.logout:hover {
+  background-color: #062a57;
+}

@@ -1,0 +1,87 @@
+/* Tela Inicial */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.logoIcon {
+  font-size: 48px !important;
+  color: var(--cor2);
+}
+
+.titulo {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--cor4);
+}
+
+.apresentacao {
+  max-width: 480px;
+  color: var(--cor3);
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
+}
+
+.cardAcesso {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitulo {
+  color: var(--cor4);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.botaoUsuario,
+.botaoAdmin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.botaoUsuario {
+  background-color: var(--cor3);
+}
+
+.botaoAdmin {
+  background-color: var(--cor2);
+}
+
+.botaoUsuario:hover {
+  background-color: var(--cor4);
+}
+
+.botaoAdmin:hover {
+  background-color: var(--cor4);
+}
