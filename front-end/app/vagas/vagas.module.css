@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.main {
+  min-height: 100vh;
+}
+
+.container {
+  padding: 2rem 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pageTitle {
+  color: var(--cor4);
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.filtro {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  color: var(--cor4);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.input {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--cor1);
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.input:focus {
+  border: 2px solid var(--cor2);
+  outline: none;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background-color: var(--cor2);
+  color: #fff;
+  font-weight: 600;
+}
+
+.botao:hover {
+  background-color: var(--cor4);
+}
+
+.mensagem {
+  text-align: center;
+  color: var(--cor3);
+  margin-top: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid var(--cor1);
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  font-size: 40px !important;
+  color: var(--cor2);
+}
+
+.card h3 {
+  color: var(--cor4);
+  margin: 0.5rem 0;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.botaoReservar {
+  margin-top: 0.75rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: var(--verde);
+  color: #fff;
+  font-weight: 600;
+}
+
+.botaoReservar:hover {
+  background-color: #1e8e4e;
+}

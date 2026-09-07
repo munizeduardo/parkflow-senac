@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.login {
+  background-color: var(--cor1);
+  display: inline-block;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 16px;
+  padding: 40px 30px;
+  width: 320px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logoIcon {
+  font-size: 40px !important;
+  color: var(--cor2);
+}
+
+.title {
+  text-align: center;
+  font-weight: 800;
+  color: var(--cor4);
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--cor3);
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  color: var(--cor4);
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--cor1);
+  border-radius: 6px;
+  color: var(--cor4);
+  font-size: 14px;
+}
+
+.input:focus {
+  border: 2px solid var(--cor2);
+  outline: none;
+}
+
+.btn_login,
+.btn_cadastro {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn_login button,
+.btn_cadastro button {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn_login button {
+  background-color: var(--cor3);
+  color: white;
+}
+
+.btn_cadastro button {
+  background-color: var(--cor2);
+  color: white;
+}
+
+.btn_login button:hover {
+  background-color: var(--cor4);
+}
+
+.btn_cadastro button:hover {
+  background-color: var(--cor4);
+}
+
+.hint {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--cor3);
+}
+
+.btn_voltar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.btn_voltar button {
+  background-color: transparent;
+  border: none;
+  color: var(--cor3);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn_voltar button:hover {
+  color: var(--cor4);
+}
