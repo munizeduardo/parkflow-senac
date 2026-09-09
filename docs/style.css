@@ -1,0 +1,276 @@
+:root {
+  --cor0: #eaf3fb;
+  --cor1: #d7e9ff;
+  --cor2: #2f80ed;
+  --cor3: #1d5fc4;
+  --cor4: #0b3d85;
+  --fonte: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fonte);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Topo */
+.topo {
+  background-color: var(--cor3);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.topo-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.icone-marca {
+  font-size: 28px;
+}
+
+.nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.botao-gh {
+  background-color: #fff;
+  color: var(--cor3);
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.botao-gh:hover {
+  background-color: var(--cor1);
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, var(--cor2), var(--cor4));
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.icone-hero {
+  font-size: 72px !important;
+  background-color: #fff;
+  color: var(--cor2);
+  border-radius: 50%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.slogan {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.descricao {
+  max-width: 620px;
+  margin: 0 auto 2rem;
+  opacity: 0.95;
+}
+
+.acoes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.acoes a {
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.botao-primario {
+  background-color: #fff;
+  color: var(--cor4);
+}
+
+.botao-primario:hover {
+  background-color: var(--cor1);
+}
+
+.botao-secundario {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.botao-secundario:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Seções */
+.secao {
+  padding: 4rem 0;
+}
+
+.secao-clara {
+  background-color: var(--cor0);
+}
+
+.secao h2 {
+  color: var(--cor4);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.texto {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  color: #374151;
+}
+
+/* Funcionalidades */
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.cartao {
+  background-color: #fff;
+  border: 1px solid var(--cor1);
+  border-radius: 12px;
+  padding: 1.75rem 1.25rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.cartao .material-symbols-outlined {
+  font-size: 40px;
+  color: var(--cor2);
+  margin-bottom: 0.75rem;
+}
+
+.cartao h3 {
+  color: var(--cor4);
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.cartao p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Tecnologias */
+.chips {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.chip {
+  background-color: var(--cor1);
+  color: var(--cor4);
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Equipe */
+.equipe {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.equipe li {
+  padding: 0.35rem 0;
+  color: #374151;
+}
+
+.orientador {
+  text-align: center;
+  color: var(--cor3);
+  font-weight: 600;
+}
+
+/* Rodapé */
+.rodape {
+  background-color: var(--cor4);
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.rodape a {
+  color: var(--cor1);
+  text-decoration: none;
+}
+
+.rodape a:hover {
+  text-decoration: underline;
+}
+
+.rodape p {
+  margin-bottom: 0.25rem;
+}
